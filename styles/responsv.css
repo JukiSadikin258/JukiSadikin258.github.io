@@ -1,0 +1,88 @@
+/* small device */
+@media screen and (max-width: 340px) {
+    .container-lokal {
+        margin-inline: 1rem;
+    }
+
+    .card-data {
+        width: 250px;
+        padding: 1rem;
+    }
+
+    .col {
+        margin-inline: 1rem;
+        width: 150px;
+        padding: 1rem;
+    }
+}
+
+
+/* medium device */
+@media screen and (min-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+
+    .card-rumah {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* large device */
+@media screen and (min-width: 1120px) {
+    .container-lokal {
+        height: 100vh;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1.5rem;
+    }
+
+    .card-rumah {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 985px)  {
+    /* hero section */
+    #hero {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .hero-right {
+        order: -1;
+    }
+
+    .hero-right img {
+        width: 60%;
+    }
+
+    .hero-left {
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    .hero-left .pre-title {
+        font-size: 0.7rem;
+        margin: 0 auto;
+    }
+
+    .hero-name {
+        font-size: 2.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* skills section */
+    .skills-grid {
+        gap: 1rem;  
+    }
+
+    .skilss-rigth p {
+        font-size: 0.7rem;
+    }
+
+}
