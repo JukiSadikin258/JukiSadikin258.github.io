@@ -415,6 +415,7 @@ a {
     letter-spacing: 2px;
 }
 
+
 .box:hover img {
     transform: scale(1.2);
 }
