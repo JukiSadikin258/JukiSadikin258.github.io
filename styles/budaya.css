@@ -362,6 +362,7 @@ a {
     align-items: center;
 }
 
+
 .box-area {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -421,5 +422,5 @@ a {
 }
 
 .box:hover .overlay {
-    height: 440px;
+    height: 450px;
 }
